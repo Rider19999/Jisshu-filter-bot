@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Mov_Group')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002020066539').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://takla:smarttakla@cluster0.flasn.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gokubot1:Moviebot1@cluster0.ao2ps86.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
@@ -49,10 +49,10 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/HowToDownloadMovieRk/10")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "eb94efd36501bf636690b19f6f7b1af030beb33b")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'yamlinks.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "eb94efd36501bf636690b19f6f7b1af030beb33b")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'yamlinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "0fff278c177df8c75cba9a27163fad9bfb06a2f2")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'instantlinks.co')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "c6633a1fe4c9cb102f1ac897587a2ea5f7aed5ca")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'teraboxlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -78,7 +78,7 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
+FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '86400'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
 IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', False) # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest You To Make It Turn Off If You Are Indexing Files First Time.
