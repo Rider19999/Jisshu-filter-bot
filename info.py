@@ -38,7 +38,7 @@ auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/sirfek_banda_kafi_hai_n
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001932713603'))
 request_channel = environ.get('REQUEST_CHANNEL', 'https://t.me/sirfek_banda_kafi_hai_new_movie') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001963609049')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Mov_Group') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Fizzy_Botz') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
